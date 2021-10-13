@@ -1,0 +1,16 @@
+{
+    "$schema": "./frank.json",
+    "amount": 1.0 ,
+    "base":"EUR",
+    "date":"2021-10-13",
+    "rates":{
+        "HUF":350,
+        "CHY":7.5,
+        "EGP":18,
+        "PHP":58,
+        "QAR":4,
+        "JOD":0.82,
+        "USD":1.17,
+        "GBP":0.857
+    }
+}

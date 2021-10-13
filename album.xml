@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE album SYSTEM "album.dtd">
+<?xml-stylesheet type="text/css" href="album.css"?>
+
+
+<album>
+    <artist>Steven Wilson</artist>
+    <title>Hand. Cannot. Erase.</title>
+    <year>2015</year>
+    <tracks>
+        <track>
+            <title>First regret</title>
+            <length>2:01</length>
+        </track>
+        <track>
+            <title>3 Years Older</title>
+            <length>10:18</length>
+        </track>
+        <track>
+            <title>Regret</title>
+            <length>3:01</length>
+        </track>
+        <track>
+            <title>Transience</title>
+            <length>4:01</length>
+        </track>
+        <track>
+            <title>Ascendance</title>
+            <length>5:01</length>
+        </track>
+        <track>
+            <title>First </title>
+            <length>2:01</length>
+        </track>
+        <track>
+            <title>Rise</title>
+            <length>3:31</length>
+        </track>
+        <track>
+            <title>Routine</title>
+            <length>4:00</length>
+        </track>
+        <track>
+            <title>Stand</title>
+            <length>3:20</length>
+        </track>
+        <track>
+            <title>Second</title>
+            <length>3:40</length>
+        </track>
+        <track>
+            <title>Home</title>
+            <length>3:01</length>
+        </track>  
+        <track>
+            <title>Track</title>
+            <length>1:30</length>
+        </track>      
+    </tracks>
+</album>
