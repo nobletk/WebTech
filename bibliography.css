@@ -1,0 +1,7 @@
+bibliography{
+    display : block;
+    border : thin solid black;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+

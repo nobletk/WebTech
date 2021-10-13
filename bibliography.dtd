@@ -1,0 +1,7 @@
+<!ELEMENT bibliography (author, title, publisher, year, ISBN,URL)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT URL (#PCDATA)>
