@@ -1,0 +1,8 @@
+<!ELEMENT book (author, title, chapters)>
+<!ELEMENT chapters (chapter+)>
+<!ELEMENT chapter (title, paragraph+)>
+<!ELEMENT paragraph (#PCDATA | footnote)*>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT term (#PCDATA)>
+<!ELEMENT footnote (#PCDATA)>
