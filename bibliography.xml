@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bibliography SYSTEM "bibliography.dtd">
+<?xml-stylesheet type="text/css" href="bibliography.css"?>
+
+
 <bibliography>
-    
+    <list>
         <author>Eric A. Meyer,Estelle Weyl</author>
         <title>CSS:The Definitive Guide</title>
         <publisher>O’Reilly Media</publisher>
         <year>2017</year>
-        <ISBN>9781449393199</ISBN>
-        <URL>www.oreilly.com/library/view/css-the-definitive/9781449325053/</URL>
-   
+        <isbn>9781449393199</isbn>
+        <url xlink:href="https://www.packtpub.com/product/responsive-web-design-with-html5-and-css-third-edition/9781839211560%C2%A0"> 
+            
+        </url>
+    </list>
 </bibliography>
