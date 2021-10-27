@@ -1,7 +1,51 @@
 bibliography{
-    display : block;
-    border : thin solid black;
-    width: fit-content;
+    display: block;
+    border: thin solid black;
+    border-radius: 0.5em;
+    box-shadow: 0.5em 0.5em 0.5em gray;
     width: -moz-fit-content;
+    width: fit-content;
+    padding: 0.5em;
+    margin: 1em auto;
+}
+list {
+    display: table;
+    counter-reset: list-number;
+    width: 100%;
+    color: red;
+}
+list > author::before{
+    content: "["counter(list-number)"]";
+    counter-increment: list-number;
+}
+title {
+    font-style: italic;    
+}
+author::after {
+    content: ".";
+}
+title::after {
+    content: ".";
+}
+publisher::after {
+    content: ",";
+}
+year::after {
+    content: ".";
+}
+isbn::before {
+    content: "ISBN:";
+}
+isbn::after {
+    content: ".";
 }
 
+url::before {
+    content:"URL:";
+}
+url{
+    font: monospace;
+}
+a{
+    color: blue;
+}
