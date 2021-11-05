@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliography SYSTEM "bibliography.dtd">
+<?xml-stylesheet type="text/css" href="bibliography.css"?>
+
+
+<bibliography>
+   <lists>
+        <list>
+            <author>Eric A. Meyer,Estelle Weyl</author>
+            <title>CSS:The Definitive Guide</title>
+            <ed>4th ed</ed>
+            <publisher>O’Reilly Media</publisher>
+            <year>2017</year>
+            <isbn>9781449393199</isbn>
+            <url> <link> -</link></url>
+        </list>
+        <list>
+            <author>Ben Frain</author>
+            <title>Responsive Web Design with HTML5 and CSS</title>
+            <ed>3rd ed</ed>
+            <publisher>Pack Publishing</publisher>
+            <year>2020</year>
+            <isbn>9781839211560</isbn>
+            <url> <link>https://www.packtpub.com/product/responsive-web-design-with-html5-and-css-third-edition/9781839211560 </link></url>
+        </list>
+        <list>
+            <author>Amit Garg</author>
+            <title>Junior Level Books
+                Introduction to Computer</title>
+            <ed></ed>
+            <publisher>Reader's Zone</publisher>
+            <year>2011</year>
+            <isbn>9789350195611</isbn>
+            <url> <link> -</link></url>
+        </list>
+        <list>
+            <author>Sharad Kumar Verma</author>
+            <title>Data Structure Using C</title>
+            <ed></ed>
+            <publisher>Thakur Publications Lucknow</publisher>
+            <year>2015</year>
+            <isbn>9789351633891</isbn>
+            <url> <link> -</link></url>
+        </list>
+        <list>
+            <author>Sharad Kumar Verma</author>
+            <title>Client Server Computing</title>
+            <ed></ed>
+            <publisher> Sun India Publications, New Delhi</publisher>
+            <year>2012</year>
+            <isbn>9789380674322</isbn>
+            <url> <link> -</link></url>
+        </list>
+        <list>
+            <author>Lalit Kumar</author>
+            <title>Client Server</title>
+            <ed></ed>
+            <publisher> Sun India Publications, New Delhi</publisher>
+            <year>2012</year>
+            <isbn>9789380674335</isbn>
+            <url> <link> -</link></url>
+        </list>
+    </lists> 
+</bibliography>

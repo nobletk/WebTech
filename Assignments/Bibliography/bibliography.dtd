@@ -1,0 +1,11 @@
+<!ELEMENT bibliography (lists)>
+<!ELEMENT lists (list+)>
+<!ELEMENT list (author, title, ed,publisher, year, isbn,url)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT ed (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT url (link)>
+<!ELEMENT link (#PCDATA)>
