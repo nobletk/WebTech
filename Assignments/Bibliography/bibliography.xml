@@ -27,7 +27,7 @@
             <author>Amit Garg</author>
             <title>Junior Level Books
                 Introduction to Computer</title>
-            <ed></ed>
+            <ed>1st ed</ed>
             <publisher>Reader's Zone</publisher>
             <year>2011</year>
             <isbn>9789350195611</isbn>
@@ -36,7 +36,7 @@
         <list>
             <author>Sharad Kumar Verma</author>
             <title>Data Structure Using C</title>
-            <ed></ed>
+            <ed>2nd ed</ed>
             <publisher>Thakur Publications Lucknow</publisher>
             <year>2015</year>
             <isbn>9789351633891</isbn>
@@ -45,7 +45,7 @@
         <list>
             <author>Sharad Kumar Verma</author>
             <title>Client Server Computing</title>
-            <ed></ed>
+            <ed>4th ed</ed>
             <publisher> Sun India Publications, New Delhi</publisher>
             <year>2012</year>
             <isbn>9789380674322</isbn>
@@ -54,7 +54,7 @@
         <list>
             <author>Lalit Kumar</author>
             <title>Client Server</title>
-            <ed></ed>
+            <ed>3rd ed</ed>
             <publisher> Sun India Publications, New Delhi</publisher>
             <year>2012</year>
             <isbn>9789380674335</isbn>
