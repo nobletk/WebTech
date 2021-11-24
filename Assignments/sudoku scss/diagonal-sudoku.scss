@@ -1,0 +1,46 @@
+@import "sudoku.scss";
+
+%smoke{
+    background-color: whitesmoke;
+}
+%diagonal{
+    background-color:lightblue;
+}
+table.sudoku{
+    
+    @for $i from 1 through 3 {
+        tr:nth-child(#{$i})>td:nth-child(1),& tr:nth-child(#{$i})>td:nth-child(2),tr:nth-child(#{$i})>td:nth-child(3),& tr:nth-child(#{$i})>td:nth-child(7),
+        & tr:nth-child(#{$i})>td:nth-child(8),& tr:nth-child(#{$i})>td:nth-child(9){
+            @extend %diagonal;
+        }   
+    }    
+    @for $i from 1 through 3 {
+        tr:nth-child(#{$i})>td:nth-child(4),& tr:nth-child(#{$i})>td:nth-child(5),tr:nth-child(#{$i})>td:nth-child(6){
+            @extend %smoke;
+        }   
+    } 
+    @for $i from 4 through 6 {
+        tr:nth-child(#{$i})>td:nth-child(1),& tr:nth-child(#{$i})>td:nth-child(2),tr:nth-child(#{$i})>td:nth-child(3),& tr:nth-child(#{$i})>td:nth-child(7),
+        & tr:nth-child(#{$i})>td:nth-child(8),& tr:nth-child(#{$i})>td:nth-child(9){
+            @extend %smoke;
+        }   
+    }       
+    @for $i from 4 through 6 {
+        tr:nth-child(#{$i})>td:nth-child(4),& tr:nth-child(#{$i})>td:nth-child(5),tr:nth-child(#{$i})>td:nth-child(6){
+            @extend %diagonal;
+        }   
+    }
+
+    @for $i from 7 through 9 {
+        tr:nth-child(#{$i})>td:nth-child(1),& tr:nth-child(#{$i})>td:nth-child(2),tr:nth-child(#{$i})>td:nth-child(3),& tr:nth-child(#{$i})>td:nth-child(7),
+        & tr:nth-child(#{$i})>td:nth-child(8),& tr:nth-child(#{$i})>td:nth-child(9){
+            @extend %diagonal;
+        }   
+    }
+    @for $i from 7 through 9 {
+        tr:nth-child(#{$i})>td:nth-child(4),& tr:nth-child(#{$i})>td:nth-child(5),tr:nth-child(#{$i})>td:nth-child(6){
+            @extend %smoke;
+        }   
+    }    
+ }   
+
