@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+#grid>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 1em;
+    font-family: sans-serif;
+}
+#grid{
+    margin: auto;
+    display: grid;
+    background-color: lightgray;
+    border: medium solid gray;
+    height: 50vh;
+    width: 40vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%; 
+    grid-template: "A A A B"
+                    "C C D E"
+                    "F . G E"
+                    "F H H E"
+                    "I J J K";
+}   
+#lavender {
+    background-color: lavender;
+    grid-area: A;
+}
+#yellow-1 {
+    background-color: yellow;
+    grid-area: B;
+}
+#lightgreen-1 {
+    background-color: lightgreen;
+    grid-area: C;
+}
+#yellow-2 {
+    background-color: yellow;
+    grid-area: D;
+}
+#pink {
+    background-color: pink;
+    grid-area: E;
+}
+
+#plum {
+    background-color: plum;
+    grid-area: F;
+}
+
+#yellow-3 {
+    background-color: yellow;
+    grid-area: G;
+}
+
+#lightgreen-2 {
+    background-color: lightgreen;
+    grid-area: H;
+}
+
+#coral {
+    background-color: coral;
+    grid-area: I;
+}
+
+#lightgreen-3 {
+    background-color: lightgreen;
+    grid-area: J;
+}
+
+#yellow-4 {
+    background-color: yellow;
+    grid-area: K;
+}
+#coral::before, #lavender::before, #pink::before, #plum::before {
+    content: attr(id);
+}
+
+#lightgreen-1::before, #lightgreen-2::before, #lightgreen-3::before {
+    content: "lightgreen";
+}
+
+#yellow-1::before, #yellow-2::before, #yellow-3::before, #yellow-4::before {
+    content: "yellow";
+}
